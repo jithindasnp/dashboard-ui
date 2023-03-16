@@ -22,8 +22,8 @@ export default function Sidebar() {
         <>
             <div className="container-fluid dashContainer" data-aos="fade-right" data-aos-duration="2000">
                 <div className="row  dashTitleRow align-items-center">
-                    <div className="col-sm-9"><h6 className='m-0'>Dashboard</h6></div>
-                    <div className="col-sm-3 mt-1 d-flex justify-content-end"><button className='navBtn' onClick={() => { setnav(true);reClick() }} ><i class="fa-sharp fa-solid fa-bars mt-2 opacity-25 m-0"></i></button></div>
+                    <div className="col-sm-9 col-6"><h6 className='m-0'>Dashboard</h6></div>
+                    <div className="col-sm-3 col-6 mt-1 d-flex justify-content-end"><button className='navBtn' onClick={() => { setnav(true);reClick() }} ><i class="fa-sharp fa-solid fa-bars mt-2 opacity-25 m-0"></i></button></div>
                 </div>
                 <div className="sideBarVisible p-0 m-0" id='sideBarVisible'>
                     <div className="row py-4 dashPhotoRow">
