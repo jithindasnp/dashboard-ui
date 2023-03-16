@@ -1,0 +1,20 @@
+body{
+  background-color: #F7F8FA;
+}
+.rootRow{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.046);
+}
+
+
+/* media queries */
+
+@media only screen and (max-width: 1200px) {
+.endCol,.sideBarVisible,.Xcoloumn,.mainTitleRow {
+      display: none ;
+  }
+}
+@media only screen and (min-width: 1200px) {
+.sideBarVisible {
+      display: unset !important;
+  }
+}

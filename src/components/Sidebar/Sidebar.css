@@ -1,0 +1,34 @@
+.dashTitleRow{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.063);
+    height: 75px;
+}
+.navBtn{
+    border: none;
+}
+.dashPhotoRow{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.063);
+}
+.dashContainer{
+    overflow-y:scroll;
+    height: auto;
+}
+.dashTitleImg{
+    border-radius: 50%;
+    padding: 1px;
+    border: 2px solid #3B82F6;
+}
+.countText{
+    background-color: #3b83f61b;
+    border-radius: 50%;
+    width: fit-content;
+    padding:auto;
+    text-align: center;
+}
+#dashMainRowEnd{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.063);
+
+}
+.dashIcons{
+    color: #3B82F6;
+}
+
